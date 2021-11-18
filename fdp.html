@@ -205,6 +205,81 @@
 			<!-- ============================================================== -->
 			
 			
+			<!-- ============================ Hero Banner  Start================================== -->
+			<div class="hero_banner image-cover image_bottom" style="background:#f7f8f9  no-repeat;">
+				<div class="container">
+					<div class="row justify-content-center">
+						<div class="col-lg-9 col-md-10 col-sm-12">
+							<div class="simple-search-wrap">
+								<div class="hero_search-2 text-center">
+									<div class="slideshow-container">
+
+										<div class="mySlides fade">
+										  <div class="numbertext">1 / 3</div>
+										  <img src="https://idealnet.aicte-india.org/assets//img/newslider1%20(1).jpg" style="width:100%">
+										  <!-- <div class="text">Caption Text</div> -->
+										</div>
+										
+										<div class="mySlides fade">
+										  <div class="numbertext">2 / 3</div>
+										  <img src="https://idealnetapi.aicte-india.org/files/gallery/album/264_96259_13_gallery_image.JPG" style="width:100%">
+										  <!-- <div class="text">Caption Two</div> -->
+										</div>
+										
+										<div class="mySlides fade">
+										  <div class="numbertext">3 / 3</div>
+										  <img src="https://idealnetapi.aicte-india.org/files/gallery/album/264_98304_2_gallery_image.jpg" style="width:100%">
+										  <!-- <div class="text">Caption Three</div> -->
+										</div>
+										
+										</div>
+										<br>
+										
+										<div style="text-align:center">
+										  <span class="dot"></span> 
+										  <span class="dot"></span> 
+										  <span class="dot"></span> 
+										</div>
+										
+										<script>
+										var slideIndex = 0;
+										showSlides();
+										
+										function showSlides() {
+										  var i;
+										  var slides = document.getElementsByClassName("mySlides");
+										  var dots = document.getElementsByClassName("dot");
+										  for (i = 0; i < slides.length; i++) {
+											slides[i].style.display = "none";  
+										  }
+										  slideIndex++;
+										  if (slideIndex > slides.length) {slideIndex = 1}    
+										  for (i = 0; i < dots.length; i++) {
+											dots[i].className = dots[i].className.replace(" active", "");
+										  }
+										  slides[slideIndex-1].style.display = "block";  
+										  dots[slideIndex-1].className += " active";
+										  setTimeout(showSlides, 4000); // Change image every 2 seconds
+										}
+										</script>
+										
+									<!-- <div class="elsio_tag">LISTEN TO OUR NEW ANTHEM</div>
+									<h1 class="banner_title mb-4">Crack UPSC CSE - GS with World's largest learning platform</h1>
+									<p class="font-lg mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
+									<div class="input-group simple_search">
+										<i class="fa fa-search ico"></i>
+										<input type="text" class="form-control" placeholder="Search Your Cources"> -->
+										<!-- <div class="input-group-append">
+											<button class="btn theme-bg" type="button">Search</button>
+										</div> -->
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- ============================ Hero Banner End ================================== -->
 			<!-- ================================ Tag Award ================================ -->
 			<!-- <section class="p-0">
 				<div class="container">
